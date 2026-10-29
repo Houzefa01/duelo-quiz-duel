@@ -1,0 +1,4 @@
+Polices OFL auto-hébergées (sous-ensemble latin, woff2) :
+- Bricolage Grotesque 700-800 (titres) — OFL 1.1
+- Instrument Sans 400/500/600 (texte) — OFL 1.1
+Instances statiques latines. Aucune requête réseau vers un tiers à l'exécution.

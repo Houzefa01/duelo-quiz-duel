@@ -1,0 +1,12 @@
+seed ok: 600 questions
+setup: 300 utilisateurs+sessions, 600 questions
+[srv] {"lvl":"info","msg":"Duelo en ligne sur le port 34590","port":34590,"t":"2026-10-04T22:00:02.956Z"}
+repos: RSS=94.8 Mo (budget < 150)
+connectés: 300 WS
+---- RÉSULTATS ----
+connexions: 300 (cible 300)
+duels appariés: 100 (cible 100)
+duels terminés (joueurs): 200 (cible 200)
+RAM repos: 133.3 Mo | pic charge: 133.3 Mo (budget < 400)
+CPU moyen: 9.8 % d'un cœur (budget < 25)
+latence événement answer->adversaire: médiane 3 ms, p95 37 ms (budget < 50), n=2000

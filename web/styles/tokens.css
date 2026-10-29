@@ -1,0 +1,34 @@
+/* Duelo cartoon — tokens (thème clair par défaut, sombre via [data-theme="dark"]).
+   Contrastes mesurés (WCAG AA) dans docs/DESIGN.md. */
+:root{
+  --fond:#DDF3FF; --surface:#FFFFFF; --contour:#1F1A38; --texte:#1F1A38;
+  --soleil:#FFC83D; --ciel:#3FB8FF; --menthe:#2FD08A; --tomate:#FF5A5F;
+  --violet:#8A63FF; --rose:#FF86C1;
+  --bordure-carte:#1F1A38;
+  --font-titre:"Lilita One",system-ui,sans-serif;
+  --font-texte:"Nunito",system-ui,sans-serif;
+  --r-carte:16px; --r-rep:14px;
+  --bw:3px; --ombre:0 6px 0 var(--contour); --ombre-petite:0 4px 0 var(--contour);
+  --rebond:cubic-bezier(.34,1.56,.64,1); --doux:cubic-bezier(.2,.8,.2,1);
+  --pois:radial-gradient(rgba(31,26,56,.08) 2px, transparent 2.2px);
+  --encre-fixe:#1F1A38; /* texte sur couleurs vives, constant dans les deux thèmes */
+  --blanc-grand:#FFFFFF; /* grand texte sur violet uniquement (3,96:1, seuil 3:1) */
+  --noir-ombre:#000000;
+  --voile:rgba(31,26,56,.5); /* fond des popups, thème clair */
+  color-scheme:light;
+}
+:root[data-theme="dark"]{
+  --fond:#1B1640; --surface:#2A2360; --contour:#0D0A24; --texte:#F6F3FF;
+  --bordure-carte:rgba(255,255,255,.18);
+  --pois:radial-gradient(rgba(246,243,255,.10) 1.6px, transparent 1.8px);
+  --voile:rgba(13,10,36,.65); /* fond des popups, thème sombre */
+  color-scheme:dark;
+}
+/* Système : sans data-theme, le sombre suit l'OS */
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme]){ --fond:#1B1640; --surface:#2A2360; --contour:#0D0A24; --texte:#F6F3FF; --bordure-carte:rgba(255,255,255,.18); --pois:radial-gradient(rgba(246,243,255,.10) 1.6px, transparent 1.8px); --voile:rgba(13,10,36,.65); color-scheme:dark; }
+}
+/* Règles d'or : local=soleil, adversaire=ciel (inchangées dans les deux thèmes).
+   Menthe/tomate : uniquement juste/faux, toujours avec icône ✓/✗ + libellé.
+   Texte sur soleil/ciel/menthe/tomate/rose : toujours --contour (jamais blanc).
+   Blanc sur violet : réservé au grand texte (boutons Lilita ≥ 19px, 3,96:1 ≥ 3:1). */

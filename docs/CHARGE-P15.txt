@@ -1,0 +1,14 @@
+seed ok: 600 questions
+setup: 320 utilisateurs, 600 questions
+repos: RSS=95.6 Mo
+connectés: 300 WS
+tournoi 2 : size=8
+tournoi 3 : size=8
+---- RÉSULTATS ----
+connexions: 300 (cible 300)
+duels appariés: 100 (cible 100)
+duels terminés (joueurs): 200 (cible 200)
+photos: 10/10 OK
+RAM repos/pic: 164.5 Mo (budget < 400)
+CPU moyen: 12.4 % d'un cœur (budget < 25)
+latence événement: p50 2 ms, p95 60 ms (budget < 50), n=2000

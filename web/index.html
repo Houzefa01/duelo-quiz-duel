@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Duelo — Un duel de culture générale en moins de 3 minutes</title>
+<meta name="description" content="Duelo : duel de quiz 1 contre 1 en moins de 3 minutes, classements publics, tournois d'organisateurs.">
+<script src="/js/theme.js"></script>
+<link rel="preload" href="/assets/fonts/lilita-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23FFC83D'/%3E%3Ccircle cx='22' cy='28' r='6' fill='%231F1A38'/%3E%3Ccircle cx='42' cy='28' r='6' fill='%231F1A38'/%3E%3Cpath d='M18 44q14 12 28 0' stroke='%231F1A38' stroke-width='5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/styles/tokens.css">
+<link rel="stylesheet" href="/styles/fonts.css">
+<link rel="stylesheet" href="/styles/base.css">
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+<div class="layout">
+<header class="top">
+<a class="logo" href="#/" aria-label="Duelo, accueil"><span class="pastille" aria-hidden="true">D</span><span>Duelo</span></a>
+<span class="spacer"></span>
+<span class="moi-chip" id="topmoi" hidden><img id="topavatar" width="28" height="28" alt=""><span id="pieces"></span><span id="pseudo"></span></span>
+<button class="iconbtn" id="themebtn" aria-label="Changer de thème (système, clair, sombre)"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#sun"/></svg></button>
+</header>
+<main id="contenu"><div id="app"><p>Chargement…</p></div></main>
+<nav class="bottom" aria-label="Navigation">
+<a href="#/" data-r="home"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#play"/></svg><span>Jouer</span></a><a href="#/classement" data-r="classement"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#trophy"/></svg><span>Classement</span></a><a href="#/defis" data-r="defis"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#medal"/></svg><span>Défis</span></a><a href="#/tournois" data-r="tournois"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#crown"/></svg><span>Tournois</span></a><a href="#/profil" data-r="profil"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#user"/></svg><span>Profil</span></a>
+</nav>
+</div>
+<div id="live" class="sr" aria-live="polite"></div>
+<script type="module" src="/js/app.js"></script>
+</body>
+</html>

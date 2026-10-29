@@ -1,0 +1,26 @@
+[Unit]
+Description=Duelo — quiz en duel (port 34567, localhost derrière nginx)
+After=network.target
+[Service]
+User=duelo
+WorkingDirectory=/opt/duelo/current
+ExecStart=/opt/node22/bin/node server/index.js
+Restart=always
+RestartSec=3
+Environment=PORT=34567
+Environment=HOST=127.0.0.1
+Environment=NODE_ENV=production
+# Durcissement (production) :
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/duelo
+PrivateTmp=true
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+MemoryMax=500M
+StandardOutput=journal
+StandardError=journal
+[Install]
+WantedBy=multi-user.target

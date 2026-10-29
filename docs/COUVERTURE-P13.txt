@@ -1,0 +1,99 @@
+✔ sprite : toutes les icônes utilisées existent (74.26455ms)
+✔ avatars/mascotte/covers : fichiers présents, aucun SVG maison (11.540881ms)
+✔ aucune couleur en dur dans les CSS (8.486941ms)
+seed ok: 600 questions
+✔ catalogue : 56 avatars, helpers (9.434375ms)
+✔ avatars : défaut, choix, upload, modération, thème (14075.003574ms)
+seed ok: 600 questions
+✔ crypto : AES-256-GCM, nonce unique, clé invalide refusée (10.958174ms)
+✔ lots : 5 types, chiffrement au repos, refus, distribution, concurrence (25451.053216ms)
+✔ lots : publication bloquée si codes insuffisants, libération manuelle, disqualification (13654.064552ms)
+✔ XSS : contenus organisateur affichés inertes (aucun innerHTML brut) (990.504368ms)
+seed ok: 600 questions
+✔ organisateurs : 403, grant/revoke, quotas, audit (7992.104792ms)
+✔ tournoi organisateur : brouillon -> validation -> publication -> moteur -> vainqueur (16795.086376ms)
+seed ok: 600 questions
+✔ autorisations croisées : A/B, joueurs, admin contenu (17638.20516ms)
+✔ images : sharp et jimp traitent le même PNG (2260.55389ms)
+seed ok: 600 questions
+✔ images : GIF animé détecté et refusé par les deux moteurs (12.68762ms)
+✔ upload avatar via jimp de bout en bout (sharp désactivé) (12088.874487ms)
+seed ok: 600 questions
+✔ fichiers : auto (pdf) vs validation admin (mp3), avertissement gagnant (8399.820938ms)
+seed ok: 600 questions
+✔ suppression : photo effacée du disque, pseudo anonymisé, historique conservé (4294.052821ms)
+seed ok: 600 questions
+✔ assistant : brouillon, étapes, couverture, publication (4702.413388ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 49890.06301
+ℹ start of coverage report
+ℹ -----------------------------------------------------------------------------------------------------------------------
+ℹ file            | line % | branch % | funcs % | uncovered lines
+ℹ -----------------------------------------------------------------------------------------------------------------------
+ℹ server          |        |          |         | 
+ℹ  app.js         |  96.61 |    66.67 |   33.33 | 52-53
+ℹ  config         |        |          |         | 
+ℹ   env.js        |  76.00 |    60.00 |   25.00 | 8-13
+ℹ   rules.js      | 100.00 |    75.00 |  100.00 | 
+ℹ  db             |        |          |         | 
+ℹ   db.js         |  95.24 |    80.00 |   80.00 | 31-32
+ℹ   seed          |        |          |         | 
+ℹ    index.js     | 100.00 |    66.67 |  100.00 | 
+ℹ    questions.js | 100.00 |   100.00 |  100.00 | 
+ℹ  jobs           |        |          |         | 
+ℹ   scheduler.js  |  13.75 |   100.00 |    0.00 | 7-18 20-26 28-40 42-52 54-62 64-80
+ℹ  lib            |        |          |         | 
+ℹ   crypto.js     | 100.00 |    83.33 |  100.00 | 
+ℹ   elo.js        |  33.33 |   100.00 |    0.00 | 6-17 20-21
+ℹ   images.js     |  94.37 |    82.76 |  100.00 | 24-27
+ℹ   logger.js     | 100.00 |   100.00 |    0.00 | 
+ℹ   rateLimit.js  | 100.00 |   100.00 |  100.00 | 
+ℹ   scoring.js    |  40.00 |   100.00 |    0.00 | 6-12 16-20
+ℹ   time.js       |  50.00 |   100.00 |   33.33 | 6-11
+ℹ  modules        |        |          |         | 
+ℹ   admin         |        |          |         | 
+ℹ    routes.js    |  32.14 |   100.00 |   14.29 | 7-9 12-21 24-30 33-40 43-50 53-54
+ℹ   auth          |        |          |         | 
+ℹ    password.js  | 100.00 |   100.00 |   87.50 | 
+ℹ    routes.js    |  51.43 |    45.45 |   37.50 | 38-61 65-68 73-76 81-92 97-103
+ℹ    session.js   |  70.00 |    76.92 |   66.67 | 13-14 24-30
+ℹ   avatars       |        |          |         | 
+ℹ    catalog.js   | 100.00 |    94.12 |  100.00 | 
+ℹ    routes.js    | 100.00 |    69.05 |  100.00 | 
+ℹ   challenges    |        |          |         | 
+ℹ    routes.js    |  22.64 |   100.00 |    8.33 | 13-27 31-44 49-54 57-67 70-87 92-105 108-122 126-134 136-143 147-159
+ℹ   duels         |        |          |         | 
+ℹ    engine.js    |  11.69 |   100.00 |    0.00 | 12-34 38-42 45-69 71-86 90-110 113-145 147-154 157-196 199-223 226-248
+ℹ    picker.js    |  27.78 |   100.00 |    0.00 | 6-18 22-28 31-36
+ℹ   friends       |        |          |         | 
+ℹ    routes.js    |  31.25 |   100.00 |   16.67 | 8-17 20-32 35-41 44-46
+ℹ   matchmaking   |        |          |         | 
+ℹ    queue.js     |  36.11 |   100.00 |   14.29 | 7-10 12-13 16-17 20-31 33-35
+ℹ   organizers    |        |          |         | 
+ℹ    routes.js    |  93.07 |    51.75 |   89.19 | 10-17 75-76 122-123 230-233 298-301 342-349
+ℹ   questions     |        |          |         | 
+ℹ    routes.js    |  29.51 |   100.00 |   20.00 | 10-26 30-45 48-55 58-59
+ℹ   ranking       |        |          |         | 
+ℹ    routes.js    |  25.71 |   100.00 |   50.00 | 8-33
+ℹ   rewards       |        |          |         | 
+ℹ    lots.js      |  94.26 |    55.65 |   68.42 | 14-16 69-75 138-139 323-329
+ℹ    routes.js    |  31.75 |   100.00 |   20.00 | 11-30 34 38-51 56-63
+ℹ   tournaments   |        |          |         | 
+ℹ    routes.js    |  84.19 |    50.00 |   69.57 | 10-19 23-25 58-60 77-83 87-89 93-95 116-118 166-167
+ℹ   users         |        |          |         | 
+ℹ    routes.js    |  77.78 |    90.00 |   55.56 | 18-22 25-27 31-33 56-58
+ℹ  realtime       |        |          |         | 
+ℹ   gateway.js    |  27.70 |    60.00 |   50.00 | 14-17 38-39 47-48 52-83 90-97 100-110 112-179 185-211
+ℹ tests           |        |          |         | 
+ℹ  integration    |        |          |         | 
+ℹ   helper.js     |  60.47 |    87.50 |   50.00 | 30-45 48-57 60-67
+ℹ -----------------------------------------------------------------------------------------------------------------------
+ℹ all files       |  66.44 |    66.01 |   59.11 | 
+ℹ -----------------------------------------------------------------------------------------------------------------------
+ℹ end of coverage report

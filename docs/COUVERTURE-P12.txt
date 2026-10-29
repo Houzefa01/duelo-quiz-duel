@@ -1,0 +1,117 @@
+seed ok: 600 questions
+✔ duel : création + verrou un seul duel actif (1664.228986ms)
+seed ok: 600 questions
+✔ parcours HTTP : coffre, boutique, défis, run, amis, questions, admin (31702.982631ms)
+seed ok: 600 questions
+✔ roundsFor : séquences par taille (5.617798ms)
+✔ tournoi 8 joueurs : inscription -> vainqueur (forfait, finale BO3, prix) (21591.289044ms)
+✔ tournoi : exemptions (12 pointés -> tableau 16, byes) et annulation (< 8) (22331.00636ms)
+seed ok: 600 questions
+✔ duel WS complet : 10 questions, scores 2s/9.5s/finale x2 (58306.020018ms)
+✔ anti-triche : 10 bonnes réponses quasi instantanées -> duel marqué, Elo à 0 (33131.322091ms)
+seed ok: 600 questions
+✔ reconnexion à 20 s : le duel reprend sans pénalité (61111.948165ms)
+✔ forfait à 30 s : l’absent perd, le présent est récompensé (37615.196428ms)
+seed ok: 600 questions
+✔ revanche : offre + acceptation = nouveau duel en 30 s (35317.340513ms)
+✔ fantôme : seul en file 20 s -> adversaire fantôme identifié (25906.505417ms)
+✔ sprite : toutes les icônes utilisées existent (10.898204ms)
+✔ avatars/mascotte/covers : fichiers présents, aucun SVG maison (10.056438ms)
+✔ aucune couleur en dur dans les CSS (1.953719ms)
+seed ok: 600 questions
+✔ catalogue : 44 avatars, helpers (3.640248ms)
+✔ avatars : défaut, choix, upload, modération, thème (8606.240343ms)
+seed ok: 600 questions
+✔ crypto : AES-256-GCM, nonce unique, clé invalide refusée (9.594607ms)
+✔ lots : 5 types, chiffrement au repos, refus, distribution, concurrence (13425.617926ms)
+✔ lots : publication bloquée si codes insuffisants, libération manuelle, disqualification (11665.093477ms)
+✔ XSS : contenus organisateur affichés inertes (aucun innerHTML brut) (1.797982ms)
+seed ok: 600 questions
+✔ organisateurs : 403, grant/revoke, quotas, audit (9037.647616ms)
+✔ tournoi organisateur : brouillon -> validation -> publication -> moteur -> vainqueur (14849.922428ms)
+✔ Elo : victoire rapporte des points, somme nulle (5.182043ms)
+✔ Elo : K=40 pour les nouveaux (< 20 parties) (0.471715ms)
+✔ Elo : plancher 100 (1.970074ms)
+✔ niveau = floor(sqrt(XP/100))+1, max 100 (0.922276ms)
+✔ fenêtre : 100 au départ, +50/5s, max 400 (3.397017ms)
+✔ matchmaking appaire dans la fenêtre (1.485528ms)
+✔ pas d’appariement hors fenêtre (0.467493ms)
+✔ règles : coffre 7 jours, plafond pièces, finale x2 (6.129799ms)
+✔ tournoi : tailles 8/16/32, finale best-of-3 (3.02287ms)
+✔ bonne réponse en 2 s => 100 + 80 = 180 (2.994843ms)
+✔ bonne réponse en 9.5 s => 100 + 5 = 105 (0.387138ms)
+✔ finale doublée en 2 s => 360 (0.315814ms)
+✔ mauvaise réponse => 0 (0.244133ms)
+✔ départage : le plus proche gagne, sinon le plus rapide (0.299773ms)
+✔ seedOrder produit 8 places (12.902076ms)
+ℹ tests 37
+ℹ suites 0
+ℹ pass 37
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 211685.863897
+ℹ start of coverage report
+ℹ ------------------------------------------------------------------------------------
+ℹ file            | line % | branch % | funcs % | uncovered lines
+ℹ ------------------------------------------------------------------------------------
+ℹ server          |        |          |         | 
+ℹ  app.js         |  96.61 |    66.67 |   33.33 | 52-53
+ℹ  config         |        |          |         | 
+ℹ   env.js        |  76.00 |    60.00 |   25.00 | 8-13
+ℹ   rules.js      | 100.00 |    75.00 |  100.00 | 
+ℹ  db             |        |          |         | 
+ℹ   db.js         |  95.24 |    80.00 |   80.00 | 31-32
+ℹ   seed          |        |          |         | 
+ℹ    index.js     | 100.00 |    66.67 |  100.00 | 
+ℹ    questions.js | 100.00 |   100.00 |  100.00 | 
+ℹ  jobs           |        |          |         | 
+ℹ   scheduler.js  |  13.75 |   100.00 |    0.00 | 7-18 20-26 28-40 42-52 54-62 64-80
+ℹ  lib            |        |          |         | 
+ℹ   crypto.js     | 100.00 |    83.33 |  100.00 | 
+ℹ   elo.js        | 100.00 |   100.00 |  100.00 | 
+ℹ   rateLimit.js  | 100.00 |   100.00 |  100.00 | 
+ℹ   scoring.js    | 100.00 |    83.33 |  100.00 | 
+ℹ   time.js       | 100.00 |   100.00 |   66.67 | 
+ℹ  modules        |        |          |         | 
+ℹ   admin         |        |          |         | 
+ℹ    routes.js    |  85.71 |    58.82 |   85.71 | 33-40
+ℹ   auth          |        |          |         | 
+ℹ    password.js  | 100.00 |   100.00 |  100.00 | 
+ℹ    routes.js    |  80.95 |    36.00 |   70.00 | 52-56 65-68 73-76 97-103
+ℹ    session.js   |  93.33 |    36.36 |  100.00 | 13-14
+ℹ   avatars       |        |          |         | 
+ℹ    catalog.js   | 100.00 |    93.75 |  100.00 | 
+ℹ    routes.js    | 100.00 |    62.03 |  100.00 | 
+ℹ   challenges    |        |          |         | 
+ℹ    routes.js    |  85.53 |    60.71 |   91.30 | 49-54 113-116 147-159
+ℹ   duels         |        |          |         | 
+ℹ    engine.js    |  98.79 |    74.55 |  100.00 | 150-151 153
+ℹ    picker.js    | 100.00 |    85.71 |  100.00 | 
+ℹ   friends       |        |          |         | 
+ℹ    routes.js    |  85.42 |    41.18 |   85.71 | 35-41
+ℹ   matchmaking   |        |          |         | 
+ℹ    queue.js     | 100.00 |    92.31 |   92.31 | 
+ℹ   organizers    |        |          |         | 
+ℹ    routes.js    |  91.87 |    60.44 |   86.21 | 63-64 110-111 180-190 221-228
+ℹ   questions     |        |          |         | 
+ℹ    routes.js    |  96.72 |    52.17 |   83.33 | 58-59
+ℹ   ranking       |        |          |         | 
+ℹ    routes.js    |  71.43 |    50.00 |   75.00 | 13-15 17-19 21-23 33
+ℹ   rewards       |        |          |         | 
+ℹ    lots.js      |  92.09 |    50.85 |   64.86 | 14-16 65-71 133-134 302-314
+ℹ    routes.js    |  96.83 |    74.07 |   85.71 | 21 34
+ℹ   tournaments   |        |          |         | 
+ℹ    routes.js    |  86.51 |    62.92 |   69.57 | 10-19 23-25 58-60 77-83 87-89 93-95
+ℹ   users         |        |          |         | 
+ℹ    routes.js    |  73.08 |    50.00 |   62.50 | 29-31 35-42 45-47
+ℹ  realtime       |        |          |         | 
+ℹ   gateway.js    |  92.49 |    73.68 |   88.89 | 47-48 136-145 147-150
+ℹ tests           |        |          |         | 
+ℹ  integration    |        |          |         | 
+ℹ   helper.js     |  94.19 |    72.00 |  100.00 | 35-39
+ℹ ------------------------------------------------------------------------------------
+ℹ all files       |  90.57 |    66.84 |   81.96 | 
+ℹ ------------------------------------------------------------------------------------
+ℹ end of coverage report

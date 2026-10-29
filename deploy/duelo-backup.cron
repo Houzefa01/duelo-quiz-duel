@@ -1,0 +1,4 @@
+# Sauvegarde Duelo — cron (alternative sans systemd).
+# Installer : crontab -e  (utilisateur duelo)
+# RAPPEL : REWARD_KEY n'est JAMAIS dans les sauvegardes. Note-la hors machine.
+0 3 * * * DB_PATH=/opt/duelo/data/duelo.db UPLOAD_ROOT=/opt/duelo/data/uploads bash /opt/duelo/deploy/backup.sh >> /opt/duelo/backups/cron.log 2>&1

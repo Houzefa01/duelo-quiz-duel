@@ -1,0 +1,71 @@
+# Manifeste DiceBear — téléchargé le 2026-10-05
+web/assets/avatars/personnage-a1.svg | style=adventurer seed=Duel-A1 | auteur=Lisa Wischofsky | licence=CC BY 4.0 | cat=personnages | https://api.dicebear.com/10.x/adventurer/svg?seed=Duel-A1
+web/assets/avatars/personnage-a2.svg | style=adventurer seed=Duel-A2 | auteur=Lisa Wischofsky | licence=CC BY 4.0 | cat=personnages | https://api.dicebear.com/10.x/adventurer/svg?seed=Duel-A2
+web/assets/avatars/personnage-a3.svg | style=adventurer seed=Duel-A3 | auteur=Lisa Wischofsky | licence=CC BY 4.0 | cat=personnages | https://api.dicebear.com/10.x/adventurer/svg?seed=Duel-A3
+web/assets/avatars/personnage-a4.svg | style=adventurer seed=Duel-A4 | auteur=Lisa Wischofsky | licence=CC BY 4.0 | cat=personnages | https://api.dicebear.com/10.x/adventurer/svg?seed=Duel-A4
+web/assets/avatars/personnage-a5.svg | style=adventurer seed=Duel-A5 | auteur=Lisa Wischofsky | licence=CC BY 4.0 | cat=personnages | https://api.dicebear.com/10.x/adventurer/svg?seed=Duel-A5
+web/assets/avatars/personnage-a6.svg | style=adventurer seed=Duel-A6 | auteur=Lisa Wischofsky | licence=CC BY 4.0 | cat=personnages | https://api.dicebear.com/10.x/adventurer/svg?seed=Duel-A6
+web/assets/avatars/personnage-a7.svg | style=adventurer seed=Duel-A7 | auteur=Lisa Wischofsky | licence=CC BY 4.0 | cat=personnages | https://api.dicebear.com/10.x/adventurer/svg?seed=Duel-A7
+web/assets/avatars/personnage-a8.svg | style=adventurer seed=Duel-A8 | auteur=Lisa Wischofsky | licence=CC BY 4.0 | cat=personnages | https://api.dicebear.com/10.x/adventurer/svg?seed=Duel-A8
+web/assets/avatars/personnage-a9.svg | style=adventurer seed=Duel-A9 | auteur=Lisa Wischofsky | licence=CC BY 4.0 | cat=personnages | https://api.dicebear.com/10.x/adventurer/svg?seed=Duel-A9
+web/assets/avatars/personnage-a10.svg | style=adventurer seed=Duel-A10 | auteur=Lisa Wischofsky | licence=CC BY 4.0 | cat=personnages | https://api.dicebear.com/10.x/adventurer/svg?seed=Duel-A10
+web/assets/avatars/personnage-a11.svg | style=adventurer seed=Duel-A11 | auteur=Lisa Wischofsky | licence=CC BY 4.0 | cat=personnages | https://api.dicebear.com/10.x/adventurer/svg?seed=Duel-A11
+web/assets/avatars/personnage-a12.svg | style=adventurer seed=Duel-A12 | auteur=Lisa Wischofsky | licence=CC BY 4.0 | cat=personnages | https://api.dicebear.com/10.x/adventurer/svg?seed=Duel-A12
+web/assets/avatars/personnage-a13.svg | style=adventurer seed=Duel-A13 | auteur=Lisa Wischofsky | licence=CC BY 4.0 | cat=personnages | https://api.dicebear.com/10.x/adventurer/svg?seed=Duel-A13
+web/assets/avatars/personnage-a14.svg | style=adventurer seed=Duel-A14 | auteur=Lisa Wischofsky | licence=CC BY 4.0 | cat=personnages | https://api.dicebear.com/10.x/adventurer/svg?seed=Duel-A14
+web/assets/avatars/personnage-p1.svg | style=personas seed=Duel-P1 | auteur=Draftbit | licence=CC BY 4.0 | cat=personnages | https://api.dicebear.com/10.x/personas/svg?seed=Duel-P1
+web/assets/avatars/personnage-p2.svg | style=personas seed=Duel-P2 | auteur=Draftbit | licence=CC BY 4.0 | cat=personnages | https://api.dicebear.com/10.x/personas/svg?seed=Duel-P2
+web/assets/avatars/personnage-p3.svg | style=personas seed=Duel-P3 | auteur=Draftbit | licence=CC BY 4.0 | cat=personnages | https://api.dicebear.com/10.x/personas/svg?seed=Duel-P3
+web/assets/avatars/personnage-p4.svg | style=personas seed=Duel-P4 | auteur=Draftbit | licence=CC BY 4.0 | cat=personnages | https://api.dicebear.com/10.x/personas/svg?seed=Duel-P4
+web/assets/avatars/personnage-p5.svg | style=personas seed=Duel-P5 | auteur=Draftbit | licence=CC BY 4.0 | cat=personnages | https://api.dicebear.com/10.x/personas/svg?seed=Duel-P5
+web/assets/avatars/personnage-p6.svg | style=personas seed=Duel-P6 | auteur=Draftbit | licence=CC BY 4.0 | cat=personnages | https://api.dicebear.com/10.x/personas/svg?seed=Duel-P6
+web/assets/avatars/clas-n1.svg | style=notionists seed=Duel-N1 | auteur=Zoish | licence=CC0 1.0 | cat=personnages | https://api.dicebear.com/10.x/notionists/svg?seed=Duel-N1
+web/assets/avatars/clas-n2.svg | style=notionists seed=Duel-N2 | auteur=Zoish | licence=CC0 1.0 | cat=personnages | https://api.dicebear.com/10.x/notionists/svg?seed=Duel-N2
+web/assets/avatars/clas-n3.svg | style=notionists seed=Duel-N3 | auteur=Zoish | licence=CC0 1.0 | cat=personnages | https://api.dicebear.com/10.x/notionists/svg?seed=Duel-N3
+web/assets/avatars/clas-n4.svg | style=notionists seed=Duel-N4 | auteur=Zoish | licence=CC0 1.0 | cat=personnages | https://api.dicebear.com/10.x/notionists/svg?seed=Duel-N4
+web/assets/avatars/clas-n5.svg | style=notionists seed=Duel-N5 | auteur=Zoish | licence=CC0 1.0 | cat=personnages | https://api.dicebear.com/10.x/notionists/svg?seed=Duel-N5
+web/assets/avatars/clas-n6.svg | style=notionists seed=Duel-N6 | auteur=Zoish | licence=CC0 1.0 | cat=personnages | https://api.dicebear.com/10.x/notionists/svg?seed=Duel-N6
+web/assets/avatars/clas-n7.svg | style=notionists seed=Duel-N7 | auteur=Zoish | licence=CC0 1.0 | cat=personnages | https://api.dicebear.com/10.x/notionists/svg?seed=Duel-N7
+web/assets/avatars/clas-n8.svg | style=notionists seed=Duel-N8 | auteur=Zoish | licence=CC0 1.0 | cat=personnages | https://api.dicebear.com/10.x/notionists/svg?seed=Duel-N8
+web/assets/avatars/fanta-o1.svg | style=open-peeps seed=Duel-O1 | auteur=Pablo Stanley | licence=CC0 1.0 | cat=fantaisie | https://api.dicebear.com/10.x/open-peeps/svg?seed=Duel-O1
+web/assets/avatars/fanta-o2.svg | style=open-peeps seed=Duel-O2 | auteur=Pablo Stanley | licence=CC0 1.0 | cat=fantaisie | https://api.dicebear.com/10.x/open-peeps/svg?seed=Duel-O2
+web/assets/avatars/fanta-o3.svg | style=open-peeps seed=Duel-O3 | auteur=Pablo Stanley | licence=CC0 1.0 | cat=fantaisie | https://api.dicebear.com/10.x/open-peeps/svg?seed=Duel-O3
+web/assets/avatars/fanta-o4.svg | style=open-peeps seed=Duel-O4 | auteur=Pablo Stanley | licence=CC0 1.0 | cat=fantaisie | https://api.dicebear.com/10.x/open-peeps/svg?seed=Duel-O4
+web/assets/avatars/fanta-o5.svg | style=open-peeps seed=Duel-O5 | auteur=Pablo Stanley | licence=CC0 1.0 | cat=fantaisie | https://api.dicebear.com/10.x/open-peeps/svg?seed=Duel-O5
+web/assets/avatars/fanta-o6.svg | style=open-peeps seed=Duel-O6 | auteur=Pablo Stanley | licence=CC0 1.0 | cat=fantaisie | https://api.dicebear.com/10.x/open-peeps/svg?seed=Duel-O6
+web/assets/avatars/fanta-o7.svg | style=open-peeps seed=Duel-O7 | auteur=Pablo Stanley | licence=CC0 1.0 | cat=fantaisie | https://api.dicebear.com/10.x/open-peeps/svg?seed=Duel-O7
+web/assets/avatars/fanta-o8.svg | style=open-peeps seed=Duel-O8 | auteur=Pablo Stanley | licence=CC0 1.0 | cat=fantaisie | https://api.dicebear.com/10.x/open-peeps/svg?seed=Duel-O8
+web/assets/avatars/fanta-l1.svg | style=lorelei seed=Duel-L1 | auteur=Lisa Wischofsky | licence=CC0 1.0 | cat=fantaisie | https://api.dicebear.com/10.x/lorelei/svg?seed=Duel-L1
+web/assets/avatars/fanta-l2.svg | style=lorelei seed=Duel-L2 | auteur=Lisa Wischofsky | licence=CC0 1.0 | cat=fantaisie | https://api.dicebear.com/10.x/lorelei/svg?seed=Duel-L2
+web/assets/avatars/fanta-l3.svg | style=lorelei seed=Duel-L3 | auteur=Lisa Wischofsky | licence=CC0 1.0 | cat=fantaisie | https://api.dicebear.com/10.x/lorelei/svg?seed=Duel-L3
+web/assets/avatars/fanta-l4.svg | style=lorelei seed=Duel-L4 | auteur=Lisa Wischofsky | licence=CC0 1.0 | cat=fantaisie | https://api.dicebear.com/10.x/lorelei/svg?seed=Duel-L4
+web/assets/avatars/creat-e1.svg | style=fun-emoji seed=Duel-E1 | auteur=Davis Uche | licence=CC BY 4.0 | cat=creatures | https://api.dicebear.com/10.x/fun-emoji/svg?seed=Duel-E1
+web/assets/avatars/creat-e2.svg | style=fun-emoji seed=Duel-E2 | auteur=Davis Uche | licence=CC BY 4.0 | cat=creatures | https://api.dicebear.com/10.x/fun-emoji/svg?seed=Duel-E2
+web/assets/avatars/creat-e3.svg | style=fun-emoji seed=Duel-E3 | auteur=Davis Uche | licence=CC BY 4.0 | cat=creatures | https://api.dicebear.com/10.x/fun-emoji/svg?seed=Duel-E3
+web/assets/avatars/creat-e4.svg | style=fun-emoji seed=Duel-E4 | auteur=Davis Uche | licence=CC BY 4.0 | cat=creatures | https://api.dicebear.com/10.x/fun-emoji/svg?seed=Duel-E4
+web/assets/mascotte/candidat-1.svg | style=fun-emoji seed=Mascotte-1 | auteur=Davis Uche | licence=CC BY 4.0 | cat=mascotte | https://api.dicebear.com/10.x/fun-emoji/svg?seed=Mascotte-1
+web/assets/mascotte/candidat-2.svg | style=fun-emoji seed=Mascotte-2 | auteur=Davis Uche | licence=CC BY 4.0 | cat=mascotte | https://api.dicebear.com/10.x/fun-emoji/svg?seed=Mascotte-2
+web/assets/mascotte/candidat-3.svg | style=fun-emoji seed=Mascotte-3 | auteur=Davis Uche | licence=CC BY 4.0 | cat=mascotte | https://api.dicebear.com/10.x/fun-emoji/svg?seed=Mascotte-3
+web/assets/mascotte/candidat-4.svg | style=fun-emoji seed=Mascotte-4 | auteur=Davis Uche | licence=CC BY 4.0 | cat=mascotte | https://api.dicebear.com/10.x/fun-emoji/svg?seed=Mascotte-4
+web/assets/mascotte/candidat-5.svg | style=fun-emoji seed=Mascotte-5 | auteur=Davis Uche | licence=CC BY 4.0 | cat=mascotte | https://api.dicebear.com/10.x/fun-emoji/svg?seed=Mascotte-5
+web/assets/mascotte/candidat-6.svg | style=fun-emoji seed=Mascotte-6 | auteur=Davis Uche | licence=CC BY 4.0 | cat=mascotte | https://api.dicebear.com/10.x/fun-emoji/svg?seed=Mascotte-6
+web/assets/mascotte/candidat-7.svg | style=fun-emoji seed=Mascotte-7 | auteur=Davis Uche | licence=CC BY 4.0 | cat=mascotte | https://api.dicebear.com/10.x/fun-emoji/svg?seed=Mascotte-7
+web/assets/mascotte/candidat-8.svg | style=fun-emoji seed=Mascotte-8 | auteur=Davis Uche | licence=CC BY 4.0 | cat=mascotte | https://api.dicebear.com/10.x/fun-emoji/svg?seed=Mascotte-8
+web/assets/covers/couv-1.svg | style=open-peeps seed=Cover-1 | auteur=Pablo Stanley | licence=CC0 1.0 | cat=couverture | https://api.dicebear.com/10.x/open-peeps/svg?seed=Cover-1
+web/assets/covers/couv-2.svg | style=open-peeps seed=Cover-2 | auteur=Pablo Stanley | licence=CC0 1.0 | cat=couverture | https://api.dicebear.com/10.x/open-peeps/svg?seed=Cover-2
+web/assets/covers/couv-3.svg | style=open-peeps seed=Cover-3 | auteur=Pablo Stanley | licence=CC0 1.0 | cat=couverture | https://api.dicebear.com/10.x/open-peeps/svg?seed=Cover-3
+web/assets/covers/couv-4.svg | style=open-peeps seed=Cover-4 | auteur=Pablo Stanley | licence=CC0 1.0 | cat=couverture | https://api.dicebear.com/10.x/open-peeps/svg?seed=Cover-4
+web/assets/covers/couv-5.svg | style=open-peeps seed=Cover-5 | auteur=Pablo Stanley | licence=CC0 1.0 | cat=couverture | https://api.dicebear.com/10.x/open-peeps/svg?seed=Cover-5
+web/assets/covers/couv-6.svg | style=open-peeps seed=Cover-6 | auteur=Pablo Stanley | licence=CC0 1.0 | cat=couverture | https://api.dicebear.com/10.x/open-peeps/svg?seed=Cover-6
+web/assets/avatars/anim-chat.svg | twemoji CC BY 4.0 Twitter | cat=animaux | 2026-10-05
+web/assets/avatars/anim-chien.svg | twemoji CC BY 4.0 Twitter | cat=animaux | 2026-10-05
+web/assets/avatars/anim-renard.svg | twemoji CC BY 4.0 Twitter | cat=animaux | 2026-10-05
+web/assets/avatars/anim-panda.svg | twemoji CC BY 4.0 Twitter | cat=animaux | 2026-10-05
+web/assets/avatars/anim-grenouille.svg | twemoji CC BY 4.0 Twitter | cat=animaux | 2026-10-05
+web/assets/avatars/anim-abeille.svg | twemoji CC BY 4.0 Twitter | cat=animaux | 2026-10-05
+web/assets/avatars/anim-poisson.svg | twemoji CC BY 4.0 Twitter | cat=animaux | 2026-10-05
+web/assets/avatars/anim-lion.svg | twemoji CC BY 4.0 Twitter | cat=animaux | 2026-10-05
+web/assets/avatars/anim-tigre.svg | twemoji CC BY 4.0 Twitter | cat=animaux | 2026-10-05
+web/assets/avatars/anim-lapin.svg | twemoji CC BY 4.0 Twitter | cat=animaux | 2026-10-05
+web/assets/avatars/anim-koala.svg | twemoji CC BY 4.0 Twitter | cat=animaux | 2026-10-05
+web/assets/avatars/anim-hibou.svg | twemoji CC BY 4.0 Twitter | cat=animaux | 2026-10-05

@@ -1,0 +1,10 @@
+[Unit]
+Description=Sauvegarde quotidienne Duelo (base + uploads)
+[Service]
+Type=oneshot
+User=duelo
+WorkingDirectory=/opt/duelo/current
+Environment=DB_PATH=/var/lib/duelo/duelo.db
+Environment=UPLOAD_ROOT=/var/lib/duelo/uploads
+Environment=BACKUP_DIR=/var/lib/duelo/backups
+ExecStart=/bin/bash /opt/duelo/current/deploy/backup.sh

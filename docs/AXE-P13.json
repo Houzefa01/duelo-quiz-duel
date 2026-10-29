@@ -1,0 +1,50 @@
+[
+ {
+  "ecran": "accueil-360-light",
+  "violations": []
+ },
+ {
+  "ecran": "connexion-360-light",
+  "violations": []
+ },
+ {
+  "ecran": "classement-360-light",
+  "violations": []
+ },
+ {
+  "ecran": "tournois-360-light",
+  "violations": []
+ },
+ {
+  "ecran": "defis-360-light",
+  "violations": []
+ },
+ {
+  "ecran": "avatar-360-light",
+  "violations": []
+ },
+ {
+  "ecran": "accueil-360-dark",
+  "violations": []
+ },
+ {
+  "ecran": "connexion-360-dark",
+  "violations": []
+ },
+ {
+  "ecran": "classement-360-dark",
+  "violations": []
+ },
+ {
+  "ecran": "tournois-360-dark",
+  "violations": []
+ },
+ {
+  "ecran": "defis-360-dark",
+  "violations": []
+ },
+ {
+  "ecran": "avatar-360-dark",
+  "violations": []
+ }
+]

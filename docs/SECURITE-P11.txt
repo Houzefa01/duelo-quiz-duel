@@ -1,0 +1,20 @@
+seed ok: 600 questions
+PASS CSP présente sans unsafe-inline — default-src 'self';script-src 'self';style-src 'self';img-src 'self' data:;font-
+PASS X-Frame-Options — SAMEORIGIN
+PASS X-Content-Type-Options nosniff
+PASS cookie HttpOnly — session=addc2c50583ccdc82357045b11f754adc294a38a5cecb674dc7c
+PASS cookie SameSite=Lax
+PASS SQLi login rejeté "' OR '1'='1"
+PASS SQLi login rejeté "admin'--"
+PASS SQLi login rejeté "'; DROP TABL"
+PASS SQLi login rejeté "\" OR \"\"=\""
+PASS table users intacte après SQLi — 2 utilisateurs
+PASS SQLi scope leaderboard sans fuite
+PASS pseudo <script> refusé (400)
+PASS question piégée acceptée en stockage (modération a posteriori)
+PASS payload retrouvé brut en JSON (contexte non exécutable)
+PASS client : interpolations innerHTML toutes neutralisées (esc/num/encode)
+PASS connexion limitée après 5 essais (429) — statut 429
+PASS inscription limitée (429 observé) — 2 blocage(s)
+---- 17/17 contrôles PASS ----
+found 0 vulnerabilities

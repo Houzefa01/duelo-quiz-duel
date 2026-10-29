@@ -1,0 +1,87 @@
+seed ok: 600 questions
+✔ duel : création + verrou un seul duel actif (3371.118867ms)
+seed ok: 600 questions
+✔ parcours HTTP : coffre, boutique, défis, run, amis, questions, admin (31539.671882ms)
+seed ok: 600 questions
+✔ roundsFor : séquences par taille (6.744065ms)
+✔ tournoi 8 joueurs : inscription -> vainqueur (forfait, finale BO3, prix) (18570.436882ms)
+✔ tournoi : exemptions (12 pointés -> tableau 16, byes) et annulation (< 8) (20715.756899ms)
+✔ Elo : victoire rapporte des points, somme nulle (5.532785ms)
+✔ Elo : K=40 pour les nouveaux (< 20 parties) (0.506714ms)
+✔ Elo : plancher 100 (0.747655ms)
+✔ niveau = floor(sqrt(XP/100))+1, max 100 (0.475939ms)
+✔ fenêtre : 100 au départ, +50/5s, max 400 (7.255342ms)
+✔ matchmaking appaire dans la fenêtre (1.528951ms)
+✔ pas d’appariement hors fenêtre (0.399674ms)
+✔ règles : coffre 7 jours, plafond pièces, finale x2 (11.608287ms)
+✔ tournoi : tailles 8/16/32, finale best-of-3 (2.819323ms)
+✔ bonne réponse en 2 s => 100 + 80 = 180 (3.280073ms)
+✔ bonne réponse en 9.5 s => 100 + 5 = 105 (0.464339ms)
+✔ finale doublée en 2 s => 360 (0.408115ms)
+✔ mauvaise réponse => 0 (0.35432ms)
+✔ départage : le plus proche gagne, sinon le plus rapide (0.551125ms)
+✔ seedOrder produit 8 places (22.073974ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 40245.821426
+ℹ start of coverage report
+ℹ -----------------------------------------------------------------------------------------------------------------
+ℹ file            | line % | branch % | funcs % | uncovered lines
+ℹ -----------------------------------------------------------------------------------------------------------------
+ℹ server          |        |          |         | 
+ℹ  app.js         |  96.15 |    66.67 |   33.33 | 45-46
+ℹ  config         |        |          |         | 
+ℹ   env.js        |  76.00 |    60.00 |   25.00 | 8-13
+ℹ   rules.js      | 100.00 |    75.00 |  100.00 | 
+ℹ  db             |        |          |         | 
+ℹ   db.js         | 100.00 |    85.71 |  100.00 | 
+ℹ   seed          |        |          |         | 
+ℹ    index.js     | 100.00 |    66.67 |  100.00 | 
+ℹ    questions.js | 100.00 |   100.00 |  100.00 | 
+ℹ  jobs           |        |          |         | 
+ℹ   scheduler.js  |  13.75 |   100.00 |    0.00 | 7-18 20-26 28-40 42-52 54-62 64-80
+ℹ  lib            |        |          |         | 
+ℹ   elo.js        | 100.00 |    87.50 |  100.00 | 
+ℹ   rateLimit.js  | 100.00 |   100.00 |  100.00 | 
+ℹ   scoring.js    | 100.00 |    83.33 |  100.00 | 
+ℹ   time.js       | 100.00 |   100.00 |   66.67 | 
+ℹ  modules        |        |          |         | 
+ℹ   admin         |        |          |         | 
+ℹ    routes.js    |  85.71 |    58.82 |   85.71 | 33-40
+ℹ   auth          |        |          |         | 
+ℹ    password.js  | 100.00 |   100.00 |  100.00 | 
+ℹ    routes.js    |  80.77 |    36.00 |   70.00 | 51-55 64-67 72-75 96-102
+ℹ    session.js   |  93.33 |    36.36 |  100.00 | 13-14
+ℹ   challenges    |        |          |         | 
+ℹ    routes.js    |  85.53 |    60.71 |   91.30 | 49-54 113-116 147-159
+ℹ   duels         |        |          |         | 
+ℹ    engine.js    |  20.97 |    61.54 |   23.08 | 38-42 45-69 71-86 90-110 113-145 147-154 157-196 199-223 226-248
+ℹ    picker.js    |  80.56 |    80.00 |   66.67 | 22-28
+ℹ   friends       |        |          |         | 
+ℹ    routes.js    |  85.42 |    41.18 |   85.71 | 35-41
+ℹ   matchmaking   |        |          |         | 
+ℹ    queue.js     |  91.67 |    87.50 |   83.33 | 33-35
+ℹ   questions     |        |          |         | 
+ℹ    routes.js    |  96.72 |    52.17 |   83.33 | 58-59
+ℹ   ranking       |        |          |         | 
+ℹ    routes.js    |  71.43 |    50.00 |   75.00 | 13-15 17-19 21-23 33
+ℹ   rewards       |        |          |         | 
+ℹ    routes.js    |  96.83 |    74.07 |   85.71 | 21 34
+ℹ   tournaments   |        |          |         | 
+ℹ    routes.js    |  91.08 |    69.23 |   77.78 | 9 37-43 47-49 53-55
+ℹ   users         |        |          |         | 
+ℹ    routes.js    |  55.77 |    50.00 |   37.50 | 8-13 29-31 35-42 45-47 50-52
+ℹ  realtime       |        |          |         | 
+ℹ   gateway.js    |  27.96 |    60.00 |   54.55 | 14-17 38-39 47-48 52-83 90-97 100-110 112-178 184-209
+ℹ tests           |        |          |         | 
+ℹ  integration    |        |          |         | 
+ℹ   helper.js     |  60.47 |    87.50 |   50.00 | 30-45 48-57 60-67
+ℹ -----------------------------------------------------------------------------------------------------------------
+ℹ all files       |  70.35 |    68.42 |   71.07 | 
+ℹ -----------------------------------------------------------------------------------------------------------------
+ℹ end of coverage report

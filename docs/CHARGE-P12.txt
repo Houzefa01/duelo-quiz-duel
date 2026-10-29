@@ -1,0 +1,23 @@
+seed ok: 600 questions
+setup: 300 utilisateurs+sessions, 600 questions
+[srv] seed ok: 600 questions
+[srv] {"lvl":"info","msg":"lots désactivés (REWARD_KEY absente) : création/révélation indisponibles","t":"2026-10-05T09:43:44.852Z"}
+[srv] {"lvl":"info","msg":"Duelo en ligne sur le port 34590","port":34590,"t":"2026-10-05T09:43:45.442Z"}
+repos: RSS=107.8 Mo (budget < 150)
+connectés: 300 WS
+---- RÉSULTATS ----
+connexions: 300 (cible 300)
+duels appariés: 100 (cible 100)
+duels terminés (joueurs): 200 (cible 200)
+RAM repos: 147.4 Mo | pic charge: 147.4 Mo (budget < 400)
+CPU moyen: 9.7 % d'un cœur (budget < 25)
+latence événement answer->adversaire: médiane 1 ms, p95 10 ms (budget < 50), n=2000
+seed ok: 600 questions
+setup: 50 photos
+photos: 200/200 OK en 834 ms (200 requêtes concurrentes)
+RAM serveur: 115.7 Mo
+PHOTOS-LOAD OK
+=== MACHINE (mesurée le 2026-10-05) ===
+CPU: Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz x4
+RAM totale: 5717 Mo
+Disque / : 113G (libre 13G)

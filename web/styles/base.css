@@ -1,0 +1,121 @@
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;font-family:var(--font-texte);font-weight:500;background:var(--fond);color:var(--texte);font-size:16px;line-height:1.5;background-image:var(--pois);background-size:26px 26px}
+h1,h2,h3,.titre{font-family:var(--font-titre);font-weight:400;line-height:1.1;letter-spacing:.01em}
+h1{font-size:39px}h2{font-size:31px}h3{font-size:25px}
+.rep,.score{font-variant-numeric:tabular-nums}
+p{max-width:70ch}
+a{color:inherit;text-underline-offset:3px}
+:focus-visible{outline:3px solid var(--violet);outline-offset:2px;border-radius:6px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.skip{position:absolute;left:8px;top:-60px;background:var(--soleil);color:var(--encre-fixe);padding:10px 14px;z-index:99;border:3px solid var(--contour);border-radius:12px;font-weight:800}
+.skip:focus{top:8px}
+button{font:inherit;min-height:48px;cursor:pointer;color:var(--texte)}
+.ic{width:22px;height:22px;flex:none;vertical-align:-4px}
+/* --- Barre haute : logo + thème + moi --- */
+header.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:12px;padding:10px 16px;background:var(--surface);border-bottom:3px solid var(--contour)}
+.logo{display:flex;align-items:center;gap:8px;font-family:var(--font-titre);font-size:25px;text-decoration:none}
+.logo .pastille{width:34px;height:34px;border-radius:50%;background:var(--soleil);border:3px solid var(--contour);display:inline-flex;align-items:center;justify-content:center;font-size:20px}
+.top .spacer{flex:1}
+.iconbtn{width:48px;height:48px;border-radius:50%;border:3px solid var(--contour);background:var(--surface);display:inline-flex;align-items:center;justify-content:center;box-shadow:var(--ombre-petite)}
+.iconbtn:active{transform:translateY(3px);box-shadow:0 1px 0 var(--contour)}
+.moi-chip{display:flex;align-items:center;gap:8px;border:3px solid var(--contour);border-radius:999px;background:var(--soleil);color:var(--encre-fixe);font-weight:800;padding:4px 12px 4px 4px}
+.moi-chip[hidden]{display:none}
+/* --- Mise en page : contenu centré 1100px, rail bureau --- */
+.layout{max-width:1100px;margin:0 auto}
+main{padding:16px 16px 110px;max-width:720px;margin:0 auto}
+nav.bottom{position:fixed;bottom:0;left:0;right:0;z-index:20;display:flex;background:var(--surface);border-top:3px solid var(--contour);padding-bottom:env(safe-area-inset-bottom)}
+nav.bottom a{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;padding:8px 2px;text-decoration:none;font-weight:800;font-size:13px;min-height:60px}
+nav.bottom a[aria-current="page"]{background:var(--soleil);color:var(--encre-fixe)}
+@media(min-width:900px){
+  main{margin:0 auto;padding-bottom:64px}
+  nav.bottom{top:0;bottom:0;right:auto;width:172px;flex-direction:column;justify-content:flex-start;border-top:0;border-right:3px solid var(--contour);padding:12px 8px;gap:4px}
+  nav.bottom a{flex:none;flex-direction:row;gap:10px;font-size:16px;min-height:52px;border-radius:14px;padding:8px 12px}
+  nav.bottom .bas{margin-top:auto}
+  .layout{padding-left:172px}
+}
+/* --- Cartes, boutons, champs --- */
+.carte{background:var(--surface);border:var(--bw) solid var(--contour);border-radius:var(--r-carte);box-shadow:var(--ombre);padding:16px;margin:14px 0}
+/* Thème sombre : liseré clair 18 % en plus du contour */
+:root[data-theme="dark"] .carte{box-shadow:0 6px 0 var(--noir-ombre);outline:2px solid var(--bordure-carte);outline-offset:-6px}
+@media (prefers-color-scheme:dark){:root:not([data-theme]) .carte{box-shadow:0 6px 0 var(--noir-ombre);outline:2px solid var(--bordure-carte);outline-offset:-6px}}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;border:var(--bw) solid var(--contour);border-radius:var(--r-rep);padding:12px 14px;font-weight:800;background:var(--surface);box-shadow:var(--ombre-petite);text-decoration:none}
+.btn:active{transform:translateY(3px);box-shadow:0 1px 0 var(--contour)}
+.btn.principal{background:var(--soleil);color:var(--encre-fixe);font-family:var(--font-titre);font-size:22px;letter-spacing:.02em;box-shadow:var(--ombre)}
+.btn.secondaire{background:var(--ciel);color:var(--encre-fixe)}
+.btn.violet{background:var(--violet);color:var(--blanc-grand);font-family:var(--font-titre);font-size:20px}
+.btn.valide{background:var(--menthe);color:var(--encre-fixe)}
+.btn.faux{background:var(--tomate);color:var(--encre-fixe);animation:tremble .26s var(--doux)}
+@keyframes tremble{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+.btn.gonfle{animation:gonfle .26s var(--rebond)}
+@keyframes gonfle{40%{transform:scale(1.06)}}
+input,select,textarea{font:inherit;font-weight:600;padding:12px;border:3px solid var(--contour);border-radius:14px;width:100%;background:var(--surface);color:var(--texte)}
+form label.fl{display:block;margin:16px 0 6px;font-weight:800}
+.regle-mdp{font-size:14px;opacity:.85;margin:4px 0 0}
+.champ-mdp{position:relative}
+.champ-mdp input{padding-right:60px}
+.champ-mdp button{position:absolute;right:6px;top:6px;min-height:0;height:44px;width:48px;border-radius:10px;border:3px solid var(--contour);background:var(--surface)}
+input[type=checkbox].grosse{width:44px;height:44px;min-height:44px;accent-color:var(--violet);flex:none}
+.ligne-check{display:flex;align-items:center;gap:12px;min-height:48px;margin:12px 0;font-weight:700}
+/* Onglets connexion */
+.onglets{display:flex;gap:8px;margin:8px 0 4px}
+.onglets button{flex:1;border:3px solid var(--contour);border-radius:14px;background:var(--surface);font-weight:800;padding:12px}
+.onglets button[aria-selected="true"]{background:var(--soleil);color:var(--encre-fixe);box-shadow:var(--ombre-petite)}
+/* Bulle BD + mascotte */
+.bulle{position:relative;background:var(--surface);border:3px solid var(--contour);border-radius:16px;padding:10px 14px;font-weight:700}
+.bulle::after{content:"";position:absolute;left:34px;bottom:-14px;width:20px;height:20px;background:var(--surface);border-right:3px solid var(--contour);border-bottom:3px solid var(--contour);transform:rotate(45deg)}
+.mascotte{display:flex;gap:12px;align-items:flex-end;margin:8px 0}
+.mascotte img{width:96px;height:96px;flex:none;filter:drop-shadow(0 4px 0 var(--contour))}
+.mascotte.petite img{width:64px;height:64px}
+.saute{animation:saute .5s var(--rebond)}
+@keyframes saute{40%{transform:translateY(-16px) scale(1.04)}}
+/* Autocollants (badges, lots) */
+.sticker{display:inline-block;background:var(--rose);color:var(--encre-fixe);border:3px solid var(--contour);border-radius:999px;padding:4px 14px;font-weight:800;transform:rotate(-2deg);box-shadow:0 3px 0 var(--contour)}
+.sticker.violet{background:var(--violet);color:var(--blanc-grand);transform:rotate(2deg)}
+.sticker.soleil{background:var(--soleil)}
+.pill{border-radius:999px;border:2px solid var(--contour);padding:2px 10px;font-size:14px;font-weight:800;display:inline-block;background:var(--surface)}
+/* Barre de tension : corde de bras de fer */
+.tension{position:relative;display:flex;align-items:center;height:56px;border:3px solid var(--contour);border-radius:999px;overflow:visible;background:var(--ciel)}
+.tension .moi{height:100%;background:var(--soleil);border-radius:999px 0 0 999px;transition:width .26s var(--doux);border-right:3px dashed var(--contour)}
+.tension .bout{position:absolute;top:50%;transform:translate(-50%,-50%);width:52px;height:52px;border-radius:50%;border:3px solid var(--contour);background:var(--surface);overflow:hidden;flex:none}
+.tension .bout.g{background:var(--soleil)}.tension .bout.d{background:var(--ciel)}
+.tension .bout img{width:100%;height:100%}
+/* Grille avatars */
+.grille-avatars{display:grid;grid-template-columns:repeat(auto-fill,minmax(76px,1fr));gap:10px}
+.grille-avatars button{border:3px solid var(--contour);border-radius:18px;background:var(--surface);padding:6px;min-height:0}
+.grille-avatars button[aria-pressed="true"]{background:var(--soleil);box-shadow:var(--ombre-petite)}
+.grille-avatars img{width:100%;height:auto;display:block}
+.filtres{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+/* Divers */
+.skel{background:currentColor;opacity:.15;border-radius:8px;min-height:20px;margin:8px 0}
+.muted{opacity:.8}
+.bandeau-victoire{background:var(--soleil);border:3px solid var(--contour);border-radius:14px;padding:8px 16px;font-family:var(--font-titre);font-size:25px;color:var(--encre-fixe)}
+.couv{width:100%;border:3px solid var(--contour);border-radius:16px}
+.centre{text-align:center}
+.auth-wrap{display:flex;gap:16px;flex-wrap:wrap;align-items:center}
+.auth-masc{flex:1;min-width:220px}
+.auth-form{flex:2;min-width:260px}
+.mt{margin-top:12px}
+.tension .moi{width:50%}
+.tension .bout.g{left:0}
+.tension .bout.d{right:0;transform:translate(50%,-50%)}
+.timer{height:10px;background:var(--surface);border:2px solid var(--contour);border-radius:999px;overflow:hidden}
+.timer i{display:block;height:100%;background:var(--violet)}
+table{width:100%;border-collapse:collapse}td,th{border-bottom:2px solid var(--contour);padding:8px;text-align:left}
+.vs{font-family:var(--font-titre);font-size:49px;text-align:center}
+.confetti{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:50}
+.confetti i{position:absolute;top:-12px;width:10px;height:14px;animation:tombe 2.4s var(--doux) forwards}
+@keyframes tombe{to{transform:translateY(105vh) rotate(540deg)}}
+/* Mouvement réduit : réglage + OS */
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+:root[data-motion="reduced"] *{animation:none!important;transition:none!important}
+.respire{animation:respire 1s var(--doux) 1}
+@keyframes respire{50%{transform:scale(1.03)}}
+/* Popups de confirmation (remplacent alert/confirm/prompt natifs) */
+.surcouche{position:fixed;inset:0;z-index:60;background:var(--voile);display:flex;align-items:center;justify-content:center;padding:16px}
+.modale{background:var(--surface);border:3px solid var(--contour);border-radius:20px;box-shadow:0 8px 0 var(--contour);padding:20px;max-width:420px;width:100%;animation:pop .26s var(--rebond)}
+@keyframes pop{from{transform:scale(.92) translateY(8px)}}
+.modale h2{margin-top:0}
+.modale .rang{display:flex;gap:10px;margin-top:14px}
+.modale .rang .btn{margin:0}
+.modale .tete{display:flex;gap:12px;align-items:center}
+.modale .tete img{width:64px;height:64px;flex:none}

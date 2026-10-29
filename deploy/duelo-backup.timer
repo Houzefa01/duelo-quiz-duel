@@ -1,0 +1,7 @@
+[Unit]
+Description=Sauvegarde quotidienne Duelo (base + uploads)
+[Timer]
+OnCalendar=daily
+Persistent=true
+[Install]
+WantedBy=timers.target
